@@ -1,0 +1,13 @@
+ /* double the css class in the selector to ensure these override stuff already there, not ideal but this is dealing with 3rd party code so whatever... */
+.hs-input.hs-input {
+    background-color: #ffffff;
+}
+
+.hs-form-required.hs-form-required {
+    display: none;
+}
+
+.hs-error-msgs.hs-error-msgs {
+    padding-left: 0;
+    padding-top: 5px;
+}
