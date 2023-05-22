@@ -1,6 +1,7 @@
  /* double the css class in the selector to ensure these override stuff already there, not ideal but this is dealing with 3rd party code so whatever... */
 .hs-input.hs-input {
     background-color: #ffffff;
+    border-color: #E6E6E6;
 }
 
 .hs-form-required.hs-form-required {
@@ -13,5 +14,5 @@
 }
 
 .hs-input.hs-input.error {
- border-color: #f2545b;
+    border-color: #f2545b;
 }
